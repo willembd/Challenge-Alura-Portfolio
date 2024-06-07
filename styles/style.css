@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #F5F5F5;
+
+    margin: 0px 120px 0px 120px;
+}
+.cabecalho{
+    padding: 32px 0px 32px 0px;
+   
+}
+.cabecalho_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.cabecalho_menu_link,.cabecalho_menu_link_logo {
+    font-family: sans-serif;
+}
+.cabecalho_menu_link_logo{
+    padding-right: 220px;
+    font-size: 28px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+     font-size: 32px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.apresentacao{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.apresentacao_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.apresentacao_texto_h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+     font-size: 38px;
+}
+.apresentacao_texto_p{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.apresentacao_texto_link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.img_perfil{
+    width: 400px;
+    height: 400px;
+    border-radius: 260px;
+    
+}
+
+.sobre_mim{
+    background-color: #EAF2FD;
+    height: 250px;
+    padding: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.sobre_mim_p{
+    font-size: 16px;
+}
+
+.sobre_mim_assinatura{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.skills_hobbies{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills_hobbies2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills_hobbies_titulo{
+   margin-bottom: 50px;
+}
+.skills_hobbies_todos_cards{
+    display: flex;
+    gap: 60px;
+   
+}
+.skills_hobbies_card{
+    background-color: white;
+    width: 176px;
+    height: 174px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    
+}
+.skills_hobbies_card_p{
+    padding: 10px;
+}
+.formacao{
+    background-color: #EAF2FD;
+    margin-top: 50px;
+}
+.formacao_titulo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.formacao_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.portfolio{
+    margin-top: 50px;
+}
+.portfolio_titulo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.portfolio_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.portfolio_card_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.portfolio_card_texto_links,a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    color: black;
+    font-family: sans-serif;
+}
